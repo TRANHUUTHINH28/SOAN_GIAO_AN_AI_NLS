@@ -1,0 +1,6 @@
+{
+  "name": "Trợ Lý Giáo Án Tích Hợp Số & AI - Vật Lí 10, 11, 12",
+  "description": "Ứng dụng chuyên đổi số giáo án truyền thống sang giáo án tích hợp năng lực số và học tập AI cho môn Vật lí lớp 10, 11, 12 GDPT 2018.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
