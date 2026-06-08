@@ -157,7 +157,7 @@ Hãy trả về kết quả hoàn chỉnh theo 3 phần: Phần 1 (Bảng địn
     }
 
     const response = await generateContentWithRetry(ai, {
-      model: "gemini-2.5-flash",
+      model: "gemini-2.0-flash",
       contents: contentsPayload,
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
