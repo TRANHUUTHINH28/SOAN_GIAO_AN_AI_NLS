@@ -32,9 +32,7 @@ export default function App() {
   const [lessonPlan, setLessonPlan] = useState("");
   const [level, setLevel] = useState<"Vật lí 10" | "Vật lí 11" | "Vật lí 12">("Vật lí 10");
   const [subject, setSubject] = useState("");
-  const [customApiKey, setCustomApiKey] = useState(() => {
-    return localStorage.getItem("gemini_custom_api_key") || "";
-  });
+ const [customApiKey, setCustomApiKey] = useState("");
   const [selectedLessonId, setSelectedLessonId] = useState("");
   
   const [isLoading, setIsLoading] = useState(false);
